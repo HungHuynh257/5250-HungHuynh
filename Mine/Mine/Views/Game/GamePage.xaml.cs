@@ -16,5 +16,15 @@ namespace Mine.Views
         {
             InitializeComponent();
         }
+        async void GameButton_Clicked(Object sennder, EventArgs e)
+        {
+            DisplayAlert("SU", "Go RedHawks", "OK");
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
+   
 }
