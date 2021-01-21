@@ -2,6 +2,9 @@
 
 namespace Mine.Models
 {
+    /// <summary>
+    /// Items for characters and monsters to use
+    /// </summary>
     public class ItemModel
     {
         public string Id { get; set; }
