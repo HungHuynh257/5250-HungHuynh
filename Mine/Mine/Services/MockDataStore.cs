@@ -14,12 +14,13 @@ namespace Mine.Services
         {
             items = new List<ItemModel>()
             {
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Aegis Shield", Description="A Hero's Relic that blocks any incomming damange.", Value=5  },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Thyrsus ", Description="Double the range of magic user.",Value=7 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Mango", Description="Taste good +50 mana", Value=1 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Broken Ring", Description="It actually does nothing. Worthless", Value=0 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Speed Carrot", Description="You think you are faster but no, everyone else is just hungry.", Value=2 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Golden Apple", Description="In Emergency, a decoration can be used as a weapon.", Value=3 }
+
             };
         }
 
