@@ -63,14 +63,13 @@ namespace UnitTests.Helpers
             public void RollDice_InValid_Roll_0_Dice_10_Should_Return_Zero()
             {
                 // Arrange
-                DiceHelper.ForceRollsToNotRandom = true;
-                DiceHelper.ForcedRandomValue = 1;
+
 
                 // Act
                 var result = DiceHelper.RollDice(0, 10);
 
                 // Reset
-                DiceHelper.ForceRollsToNotRandom = false;
+
 
                 // Assert 
                 Assert.AreEqual(0, result);
