@@ -47,14 +47,13 @@ namespace UnitTests.Helpers
             public void RollDice_Valid_Roll_2_Dice_6_Should_Return_Between_2_And_12()
             {
                 // Arrange
-                DiceHelper.ForceRollsToNotRandom = true;
-                DiceHelper.ForcedRandomValue = 1;
+
 
                 // Act
                 var result = DiceHelper.RollDice(2, 6);
 
                 // Reset
-                DiceHelper.ForceRollsToNotRandom = false;
+
 
                 // Assert 
                 Assert.AreEqual(true, result >= 2);
